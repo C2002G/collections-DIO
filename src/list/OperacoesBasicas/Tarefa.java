@@ -11,4 +11,9 @@ public class Tarefa  {
     public String getDescricao() {
         return descricao;
     }
+    //Alt - Insert To string pa
+    @Override
+    public String toString() {
+        return  descricao;
+    }
 }
